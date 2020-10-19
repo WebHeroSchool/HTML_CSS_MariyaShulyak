@@ -9,7 +9,31 @@
 }
 
 .logo {
+  position: relative;
   padding: 40px 0;
+  padding-left: 44px;
+font: bold 24px/31px pt_serif,arial,helvetica,sans-serif;
+}
+
+.logo__circle{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056ec;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #c8dbfb;
 }
 
 .menu {
@@ -19,7 +43,7 @@
 
 .menu__item {
   padding: 0 13px;
-  font-family: PT serif, serif;
+  font: normal 18px/21px Roboto, serif;
 }
 
 .menu__item:last-child {
@@ -42,9 +66,7 @@
   height: 255px;
   margin-bottom: 40px;
   margin-right: 191px;
-  font-family: PT Serif, serif;
-  font-style: normal;
-  font-size: 66px;
+  font: bold 66px/87px pt_serif,serif;
 }
 
 .main-content__description {
@@ -52,11 +74,7 @@
   height: 52px;
   margin-right: 303px;
   margin-bottom: 41px;
-  font-family: Roboto, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
+  font: normal 22px/26px Roboto, serif;
 }
 
 .main-content__button {
@@ -64,10 +82,7 @@
   height: 29px;
   margin-right: 486px;
   margin-bottom: 317px;
-  font-family: Roboto, serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
+  font: normal 18px/21px Roboto, serif;
   background: #0056ec;
   color: white;
   border-radius: 4px;
