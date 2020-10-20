@@ -118,7 +118,7 @@ font: bold 24px/31px pt_serif,arial,helvetica,sans-serif;
 
 .main__button {
   display: inline-block;
-  padding: 14px; 16px;
+  padding: 14px 16px;
   font: normal 14px/16px Roboto,arial,helvetica,sans-serif;
   text-decoration: none;
   background: #0056ec;
