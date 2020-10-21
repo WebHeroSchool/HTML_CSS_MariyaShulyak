@@ -61,6 +61,10 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   background: #0056ec;
 }
 
+.menu__item:hover {
+  opacity: 0.5;
+}
+
 .menu__item_active:hover::after {
   position: absolute;
   display: block;
@@ -73,9 +77,6 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   transition: opacity 0.5s;
 }
 
-.menu__item:hover {
-  opacity: 0.5;
-}
 
 .menu__item:hover::after {
   position: absolute;
