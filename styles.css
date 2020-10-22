@@ -88,8 +88,8 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   transition: opacity 0.5s;
 }
 
-.menu__item:hover:after,
-.menu__item_active:after {
+.menu__item_active:hover::after,
+.menu__item_active::after {
   opacity: 1;
 }
 
