@@ -87,6 +87,7 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 
 .menu__item_active::after,
+.menu__item_active:hover::after,
 .menu__item:hover::after {
   opacity: 1;
 }
