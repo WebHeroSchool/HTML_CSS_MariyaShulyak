@@ -51,10 +51,6 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   transition: opacity 0.5s;
 }
 
-.menu__item:hover {
-  opacity: 0.5;
-}
-
 .menu__item:hover::after {
   position: absolute;
   display: block;
@@ -63,6 +59,9 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   width: 100%;
   height: 3px;
   background: #0056ec;
+}
+
+.menu__item:hover {
   opacity: 0.5;
 }
 
@@ -84,12 +83,11 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   width: 100%;
   height: 3px;
   background: #0056ec;
-  opacity: 0;
   transition: opacity 0.5s;
 }
 
 .menu__item_active::after,
-.menu__item_active:hover::after  {
+.menu__item_active:hover::after {
   opacity: 1;
 }
 
