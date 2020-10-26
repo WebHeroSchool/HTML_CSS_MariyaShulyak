@@ -5,7 +5,7 @@
 
 .header {
   padding-top: 0;
-  margin-bottom: 125px;
+  margin-bottom: 115px;
   display: flex;
   justify-content: space-between;
 }
@@ -100,11 +100,10 @@
 .main-section {
   display: flex;
   justify-content: space-between;
-  padding-top: 100px;
 }
 
 .main {
-  padding: 90px 63% 100px 0;
+  padding: 100px 63% 100px 0;
   background: top right no-repeat url(img/img.svg);
   background-size: 50%;
 }
@@ -137,11 +136,12 @@
 
 @media (max-width: 768px) {
 
+
   .menu {
     display: none;
-}
+  }
 
   .logotext {
     display: none;
-}
+  }
 }
