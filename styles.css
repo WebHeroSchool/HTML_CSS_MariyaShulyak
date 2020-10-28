@@ -136,6 +136,7 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 
 @media (max-width: 768px) {
+  
   .menu {
     display: none;
   }
