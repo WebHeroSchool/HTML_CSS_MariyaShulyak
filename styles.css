@@ -125,6 +125,12 @@
   font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
+.main__title,
+.main__description {
+  animation-name: color;
+  animation-duration: 1.5s;
+}
+
 .main__button {
   display: inline-block;
   padding: 18px 27px;
@@ -139,6 +145,18 @@
 
 .main__button:hover {
   background-position: right;
+}
+
+@keyframes color {
+  0% {
+    color: #fff
+    }
+  50% {
+    color: #808080
+    }
+    100% {
+     color: #000
+    }
 }
 
 @media (max-width: 1920px) {
