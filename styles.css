@@ -127,18 +127,18 @@
 
 .main__button {
   display: inline-block;
-  margin-bottom: 30px;
   padding: 18px 27px;
   font: 500 18px/22px 'Roboto', arial, helvetica, sans-serif;
   text-decoration: none;
-  background: #0056ec;
+  background: linear-gradient(to left,#2980B9,#0056ec,#757F9A,#0056ec);
   color: white;
   border-radius: 4px;
-  transition: opacity 0.5s;
+  background-size: 200%;
+  transition: 0.5s;
 }
 
 .main__button:hover {
-  opacity: 0.5;
+background-position: right;
 }
 
 @media (max-width: 1920px) {
