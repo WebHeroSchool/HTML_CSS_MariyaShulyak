@@ -544,3 +544,13 @@
     left: 0;
   }
 }
+
+@media (max-width: 360px) {
+  .menu__btn {
+    left: 250px;
+  }
+
+  .main__description {
+    margin-left: 0;
+  }
+}
