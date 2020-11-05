@@ -272,7 +272,6 @@
 }
 
 @media (max-width: 768px) {
-
   .menu {
     display: none;
   }
@@ -409,7 +408,6 @@
 }
 
 @media (max-width: 420px) {
-
   .header {
     margin-bottom: 20px;
   }
