@@ -181,8 +181,7 @@
   }
 
   .logo {
-    padding: 34px 0;
-    padding-left: 50px;
+    padding: 34px 0 34px 50px;
   }
 
   .menu__item {
@@ -222,7 +221,7 @@
   }
 
   .header {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .hamburger-menu {
@@ -231,8 +230,7 @@
 
   .logo {
     margin-left: 15px;
-    padding-top: 32px;
-    padding-left: 47px;
+    padding: 32px 0 32px 47px;
   }
 
   .logo__text {
@@ -251,7 +249,7 @@
 
   .main {
     padding-left: 12px;
-    padding-top: 85px;
+    padding-top: 65px;
     background-size: 54%;
     background-position: right center;
   }
